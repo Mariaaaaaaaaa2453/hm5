@@ -14,12 +14,12 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     Human m;
-    m.SetName("Ангеліна");
+    m.SetName("Марія");
     m.SetLaugh("ХА-ХА-ХА!");
     m.SetEnergy(90);//%
     m.SetAge(18);//ðîê³â
-    m.SetGrowth(170.2);//ñì
-    m.SetHairColor("русий³");
+    m.SetGrowth(169.2);//ñì
+    m.SetHairColor("русий");
     m.SetGender("жінка");
     m.sits = false;
     m.SetHungry(30);
@@ -28,7 +28,7 @@ int main()
 
     Raccoon r;
     r.noize = "ГРРР!";
-    r.SetNick("Степан");
+    r.SetNick("Елиас");
     r.SetWeight(5.6); //kg
     r.age = 2;
     r.SetEnergy(100);
